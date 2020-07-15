@@ -69,7 +69,7 @@ PM_AUTO_BAN = sb(os.environ.get("PM_AUTO_BAN", "True"))
 
 # Heroku Credentials for updater.
 HEROKU_MEMEZ = sb(os.environ.get("HEROKU_MEMEZ", "False"))
-HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", "rahmat1")
+HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", "rahmat12")
 HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", "7ca04981-b77a-407f-a580-627af0282177")
 
 # Github Credentials for updater and Gitupload.
