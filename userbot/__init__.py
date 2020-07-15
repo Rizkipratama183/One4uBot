@@ -55,26 +55,26 @@ API_HASH = os.environ.get("API_HASH", b31151a1dd663e9538b79a5afdf5da07)
 
 
 # Userbot Session String
-STRING_SESSION = os.environ.get("STRING_SESSION", None)
+STRING_SESSION = os.environ.get("STRING_SESSION", "1BVtsOJIBu2gXKJJm8CzGAXypfdD0wVEutYTeMBjsTuO_5g_tdJqqODpTSA5Kerm7vRQsl3BMcm17qgvygFgBbSPC1Qdlm2snQajWMqknLCqP-DBOzsMTWM9vSEwaFkgagwfP3n2cxrRUfScGInDmb6QacRP21C8UcUbwSyR0GemSah6eHxetKYcuimqQs5tvjVfVDxbqYWAdPAV_i2UlDcnxEUd5_hf6tWm2MoTYDEPZHjo04nrZGl6ffJEqV04OD8uxqXeU00l4n95X7_fxjCI4r9110OSKktIXPZOYdgC4XqKpxUrwLchYQ5-UK7Ts-f3PQhU3nyKzr7_eFnoIPpGdvviugfo=")
 
 # Logging channel/group ID configuration.
-BOTLOG_CHATID = int(os.environ.get("BOTLOG_CHATID", None))
+BOTLOG_CHATID = int(os.environ.get("BOTLOG_CHATID", "-394907402"))
 
 # Userbot logging feature switch.
-BOTLOG = sb(os.environ.get("BOTLOG", "False"))
-LOGSPAMMER = sb(os.environ.get("LOGSPAMMER", "False"))
+BOTLOG = sb(os.environ.get("BOTLOG", "True"))
+LOGSPAMMER = sb(os.environ.get("LOGSPAMMER", "True"))
 
 # Bleep Blop, this is a bot ;)
-PM_AUTO_BAN = sb(os.environ.get("PM_AUTO_BAN", "False"))
+PM_AUTO_BAN = sb(os.environ.get("PM_AUTO_BAN", "True"))
 
 # Heroku Credentials for updater.
 HEROKU_MEMEZ = sb(os.environ.get("HEROKU_MEMEZ", "False"))
-HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
-HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
+HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", "rahmat1")
+HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", "7ca04981-b77a-407f-a580-627af0282177")
 
 # Github Credentials for updater and Gitupload.
-GIT_REPO_NAME = os.environ.get("GIT_REPO_NAME", None)
-GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
+GIT_REPO_NAME = os.environ.get("GIT_REPO_NAME", "One4uBot")
+GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", "ee3478dffc9ea26e91db89799962ef6ed4de1eeb")
 
 # Custom (forked) repo URL and BRANCH for updater.
 UPSTREAM_REPO_URL = os.environ.get(
@@ -110,23 +110,23 @@ GENIUS = os.environ.get("GENIUS_ACCESS_TOKEN", None)
 LYDIA_API_KEY = os.environ.get("LYDIA_API_KEY", None)
 
 # Quotes API Token
-QUOTES_API_TOKEN = os.environ.get("QUOTES_API_TOKEN", None)
+QUOTES_API_TOKEN = os.environ.get("QUOTES_API_TOKEN", "21958215-520f-4460-9b05-5751920f67a5")
 
 # Anti Spambot Config
 ANTI_SPAMBOT = sb(os.environ.get("ANTI_SPAMBOT", "False"))
-ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "False"))
+ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "True"))
 
 # Youtube API key
-YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", None)
+YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", "AIzaSyBnIY_i5IKaUFG-666mJRR7Xi2C06l-l2I")
 
 # Telegraph 
-TELEGRAPH_SHORT_NAME = os.environ.get("TELEGRAPH_SHORT_NAME", None)
+TELEGRAPH_SHORT_NAME = os.environ.get("TELEGRAPH_SHORT_NAME", "Rahmat Dakenzo")
 
 # Default .alive name
-ALIVE_NAME = os.environ.get("ALIVE_NAME", None)
+ALIVE_NAME = os.environ.get("ALIVE_NAME", "Rahmat Dekanzo")
 
 # Time & Date - Country and Time Zone
-COUNTRY = str(os.environ.get("COUNTRY", ""))
+COUNTRY = str(os.environ.get("COUNTRY", "Indonesia"))
 TZ_NUMBER = int(os.environ.get("TZ_NUMBER", 1))
 
 # User Terminal alias
